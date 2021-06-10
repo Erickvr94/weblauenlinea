@@ -1,0 +1,356 @@
+.contend_1{
+    background-color: rgb(2,136,209,0.76);
+    height: 100%;
+    padding: 2px;
+}
+.contend_2{
+    background-color: rgb(15,66,131);
+    height: 100%;
+    padding: 1px;
+}
+.contend_3{
+    background-color: rgb(173,213,238);
+    padding-top: 5%;
+    height: 100%;
+}
+.contend_4{
+    background-color: rgb(173,213,238);
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+#title1{
+    color:white;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+#title2{
+    color:white;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.contenidoimagnes{
+    height:100px;
+}
+.foto{
+    width:80%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.foto:hover{
+	transform: translateY(-10px);
+}
+.cajaspeque{
+    width:80%;
+    height: 80%;
+    padding:0%;
+    position: relative;
+    margin-top:15px;
+    display: none;
+}
+.fondodecaja{ 
+    background-image: url("../imagenes/imgtalentos/CUADRO-DE-TEXTO-FINAL-01.png");
+    background-repeat:no-repeat;
+    background-position:top;  
+    background-size: cover;
+}
+.textotitulo{
+    position: relative;
+    top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: white;
+}
+.textocaja{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+}
+
+.a_regresa{
+    padding-right: 14%;
+    margin-left: 4%;
+}
+
+#flecharegresa{
+    margin: 0px 0px;
+    width: 18%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;   
+}
+#flecharegresa:hover{
+    transform: translateY(-7px);
+}
+#inicio{
+    margin: 0px 0px;
+    width:18%;
+    margin-bottom: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+#inicio:hover{
+   transform: translateY(-7px);
+}
+
+
+#flecharegresa{
+    margin: 0px 0px;
+    width: 18%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;   
+}
+#inicio{
+    margin: 0px 0px;
+    width:18%;
+    margin-bottom: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+
+
+
+
+
+/*NICIO MEDIAS*/
+@media (max-width: 1050px){
+    .foto{
+        width:80%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:95%;
+        height: 80%;
+        padding:0%;
+        position: relative;
+        margin-top:15px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+
+
+
+
+@media (max-width: 900px){
+    .foto{
+        width:90%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:100%;
+        height: 80%;
+        padding:0%;
+        position: relative;
+        margin-top:15px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        color:black;
+    }
+    .a_regresa{
+        padding-right: 14%;
+        margin-left: 4%;
+    }
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 18%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+    #inicio{
+        margin: 0px 0px;
+        width:18%;
+        margin-bottom: 1%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 765px){
+    .foto{
+        width:40%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:50%;
+        height: 75%;
+        padding:0%;
+        position: relative;
+        margin-top:10px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .a_regresa{
+        padding-right: 6%;
+        margin-left: 3%;
+    }
+
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 28%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+    #inicio{
+        margin: 0px 0px;
+        width:28%;
+        margin-bottom: 1%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 550px){
+    .foto{
+        width:50%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:70%;
+        height: 80%;
+        padding:0%;
+        position: relative;
+        margin-top:15px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+
+
+
+
+
+@media (max-width: 285px){
+    .foto{
+        width:60%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:85%;
+        height: 80%;
+        padding:0%;
+        position: relative;
+        margin-top:15px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+
+
+
