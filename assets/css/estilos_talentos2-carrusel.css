@@ -1,0 +1,54 @@
+
+#myCarousel{
+  height: 100%;
+  background-color: rgb(173,213,238);
+}
+#myCarousel2{
+  height: 100%;
+  background-color: rgb(173,213,238);
+}
+#myCarousel3{
+  height: 100%;
+  background-color: rgb(173,213,238);
+}
+#myCarousel4{
+  height: 100%;
+  background-color: rgb(173,213,238);
+}
+.carousel-inner{
+  padding-top: 1%;
+  
+}
+.carousel-inner .active.left{
+  left: -25%;
+}
+.carousel-inner .next{
+  left:  15%; 
+}
+.carousel-inner .prev{
+  left: -15%;
+}
+.carousel-control{
+  opacity: 0.1;
+  width:  3%;
+  
+}
+.carousel-control.left,.carousel-control.right{
+  width: 2%;
+  opacity: 0.2;
+  background-color:transparent ;
+}
+
+
+/* MEDIAS */
+@media (max-width: 769px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  #contenedor-fotos{
+    height: 280px;
+    background-color: rgb(237, 238, 173);
+  }
+  #myCarousel{
+    height: 280px;
+    background-color: rgb(173,213,238);
+  }
+}
+ 

@@ -1,0 +1,609 @@
+html,body{
+    background-color: rgb(173,213,238);
+}
+.row{
+    margin: 0px 0px !important;
+}
+.container-fluid{
+    padding: 0px 0px !important;
+}
+.contend_1{
+    background-color: rgb(2,136,209,0.76);
+    height: 100%;
+    padding: 2px;
+}
+.contend_2{
+    background-color: rgb(15,66,131);
+    height: 100%;
+    padding: 1px;
+}
+.contend_3{
+    background-color: rgb(173,213,238);
+    padding-top: 5%;
+    height: 100%;
+}
+.contend_4{
+    background-color: rgb(173,213,238);
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.title1{
+    color:white;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.carrera{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.title2{
+    color:white;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.foto{
+    width:80%;  
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.foto:hover{
+	transform: translateY(-10px);
+}
+.foto2{
+    width:62%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.foto2:hover{
+	transform: translateY(-10px);
+}
+.fotopracticante{
+    width:10px; 
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.fotopracticante:hover{
+	transform: translateY(-10px);
+}
+
+.contenidoimagnes{
+    margin-top: 0px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    height:160px;
+}
+.cajaspeque{
+    width:95%;
+    height: 62%;
+    padding:0%;
+    position: relative;
+    margin-top:7px;
+    display: none;
+}
+.cajamediana{
+    width:90%;
+    height: 66%;
+    padding:0%;
+    position: relative;
+    margin-top:7px;
+    display: none;
+}
+.cajagrande{
+    width:95%;
+    height: 88%;
+    padding:0%;
+    position: relative;
+    margin-top:7px;
+    display: none;
+}
+.fondodecaja{ 
+    background-image: url("../../imagenes/imgtalentos/CAJITA-DE-TEXTO-PARA-TALENTOS-PONER-CARGO-Y-DESCRIPCIÓN-01.png");
+    background-repeat:no-repeat;
+    background-position:top;  
+    background-size: cover;
+}
+.fondodecaja2{ 
+    background-image: url("../../imagenes/imgtalentos/CUADRO-DE-TEXTO-FINAL-01.png");
+    background-repeat:no-repeat;
+    background-position:top;  
+    background-size: cover;
+}
+
+.textotitulo{
+    position: relative;
+    top: 10px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: cursive;
+    color: white;
+}
+.textotitulo2{
+    position: relative;
+    top: 12px;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: cursive;
+    color: white;
+    
+}
+
+.perfil{
+    position: relative;
+    top: 19px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+}
+.perfil2{
+    position: relative;
+    top: 17px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+}
+.programas{
+    position: relative;
+    top: 12px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.programas2{
+    position: relative;
+    top: 9px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.a_regresa{
+    padding-right: 14%;
+    margin-left: 4%;
+}
+
+#flecharegresa{
+    margin: 0px 0px;
+    width: 18%;
+    margin-bottom: 10px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;   
+}
+#flecharegresa:hover{
+    transform: translateY(-7px);
+}
+
+
+
+
+/*NICIO MEDIAS*/
+@media (max-width: 1120px){
+    .foto{
+        width:80%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .foto2{
+        width:65%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:98%;
+        height: 62%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    .cajamediana{
+        width:95%;
+        height: 66%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    .cajagrande{
+        width:98%;
+        height: 98%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 22%;
+        margin-bottom: 10px;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+}
+
+
+
+
+
+@media (max-width: 1030px){
+    .foto{
+        width:80%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .foto2{
+        width:65%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:98%;
+        height: 65%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    .cajamediana{
+        width:95%;
+        height: 65%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+
+    .textotitulo{
+        position: relative;
+        top: 9px;
+        /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+        font-family: cursive;
+        color: white;
+    }
+    .textotitulo2{
+        position: relative;
+        top: 12px;
+        /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+        font-family: cursive;
+        color: white;    
+    }
+    .perfil{
+        position: relative;
+        top: 13px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .perfil2{
+        position: relative;
+        top: 15px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .programas{
+        position: relative;
+        top: 5px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .programas2{
+        position: relative;
+        top: 5px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 22%;
+        margin-bottom: 2%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+}
+
+
+
+
+@media (max-width: 995px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2-carrusel*/
+    .contend_3{
+        background-color:teal;
+    }
+    .foto{
+        width:80%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .foto2{
+        width:65%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:100%;
+        height: 65%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    .cajamediana{
+        width:100%;
+        height: 65%;
+        padding:0%;
+        position: relative;
+        margin-top:7px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 8px;
+        /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+        font-family: cursive;
+        color: white;
+    }
+    .textotitulo2{
+        position: relative;
+        top: 10px;
+        /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+        font-family: cursive;
+        color: white;    
+    }
+    .perfil{
+        position: relative;
+        top: 12px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .perfil2{
+        position: relative;
+        top: 15px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .programas{
+        position: relative;
+        top: 4px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .programas2{
+        position: relative;
+        top: 5px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 22%;
+        margin-bottom: 2%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+}
+
+
+
+
+
+
+@media (max-width: 765px){
+    .foto{
+        width:40%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:50%;
+        height: 75%;
+        padding:0%;
+        position: relative;
+        margin-top:10px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    }
+    .a_regresa{
+        padding-right: 6%;
+        margin-left: 3%;
+    }
+
+    #flecharegresa{
+        margin: 0px 0px;
+        width: 28%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;   
+    }
+    #inicio{
+        margin: 0px 0px;
+        width:28%;
+        margin-bottom: 1%;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+}
+
+
+
+
+
+
+@media only screen  and (max-width: 550px){
+    .foto{
+        width:70%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:70%;
+        height: 80%;
+        padding:0%;
+        position: relative;
+        margin-top:15px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+@media only screen  and (max-width: 360px){
+    .foto{
+        width:70%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:80%;
+        height: 90%;
+        padding:0%;
+        position: relative;
+        margin-top:5px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+
+
+
+
+
+@media (max-width: 285px){
+    .foto{
+        width:80%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        border: 4px solid transparent; 
+        background-color: rgb(15,66,131);
+    }
+    .cajaspeque{
+        width:95%;
+        height: 95%;
+        padding:0%;
+        position: relative;
+        margin-top:10px;
+        display: none;
+    }
+    .textotitulo{
+        position: relative;
+        top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: white;
+    }
+    .textocaja{
+        position: relative;
+        top: 25px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color:black;
+    } 
+}
+
+
+
+

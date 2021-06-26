@@ -1,0 +1,858 @@
+.contend_1{
+    background-color: rgb(2,136,209,0.76);
+    height: 10vh;
+  }
+
+  .contend_2{
+    background-color: white;
+    height: 100%;
+  }
+
+  .contend_3{
+    background-color: rgb(173,213,238);
+    height:100%;
+  }
+
+  .contend_4{
+    background-color: rgb(173,213,238);
+    height: 100%;
+  }
+
+  .contend_5{
+    background-color: rgb(173,213,238);
+    height: 100%;
+  }
+  .contend_6{
+    background-color: rgb(173,213,238);
+    height: 100%;
+  }
+
+ 
+
+#title1{
+  color:white;
+  margin: 0%;
+  border-top: 5%;
+  border-bottom: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  
+}
+
+#intro{
+  color:rgba(21, 21, 112, 0.788);
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 20%;
+  margin-left: 20%;
+
+}
+
+#title2{
+  color: rgba(21, 21, 112, 0.788);
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#vision{
+  color:rgba(21, 21, 112, 0.788);
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 22%;
+  margin-left: 22%;
+  padding-bottom: 20px;
+}
+
+#title3{
+  color: rgba(21, 21, 112, 0.788);
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+#mision{
+  color:rgba(21, 21, 112, 0.788);
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 22%;
+  margin-left: 22%;
+  padding-bottom: 20px;
+
+}
+
+#title4{
+  color: rgba(21, 21, 112, 0.788);
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+
+
+
+/*Inicio Imagenes*/
+.contenidoimagnes{
+  height:100px;
+}
+.foto{
+  width:40%;
+  height: auto;
+  transition: all 300ms ease 0ms;
+  border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.foto:hover{
+	transform: translateY(-10px);
+}
+.fotocoordinadores{
+  width:60%;
+  height: auto;
+  transition: all 300ms ease 0ms;
+  border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+}
+.fotocoordinadores:hover{
+	transform: translateY(-10px);
+}
+.cajas{ /*Clase ligada con otra que tiene la imagen*/
+  width:45%;
+  height: 100%;
+  padding:0%;
+  position: relative;
+  margin-top:15px;;
+  display: none;
+}
+.cajaspeque{
+  width:70%;
+  height: 100%;
+  padding:0%;
+  position: relative;
+  margin-top:10px;
+  display: none;
+}
+.fondodecaja{ 
+  background-image: url("../../imagenes/imgautoridades/CAJITA DE TEXTO PARA TALENTOS- PONER CARGO Y DESCRIPCIÓN-01.png");
+  background-repeat:no-repeat;
+  background-position:top;  
+  background-size: cover;
+}
+.textotitulo{
+  position: relative;
+  top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: white;
+}
+.textocaja{
+  position: relative;
+  top: 25px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color:black;
+}
+
+#inicio{
+  width:17%;
+  height: auto;
+  margin-bottom: 20px;
+  transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+#inicio:hover{
+	transform: translateY(-7px);
+}
+
+#flechtalent{
+  width:15%;
+  height: auto;
+  float: right;
+  transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+#flechtalent:hover{
+	transform: translateY(-7px);
+}
+#title5{
+  color: rgba(21, 21, 112, 0.788);
+  margin: 0%;
+  border-top: 5%;
+  border-bottom: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+/*INICIO DE MEDIAS*/
+@media (max-width: 1119px) {
+  .foto{
+    width:65%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:80%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:70%;
+    height: 90%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:75%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 28px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+  }
+  #flechtalent{
+    width:22%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+  #inicio{
+    width:25%;
+    height: auto;
+    margin-bottom:2%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  } 
+}
+
+
+
+
+
+@media (max-width: 915px) {
+  .foto{
+    width:70%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:80%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:65%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:85%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color:black;
+  }
+  #flechtalent{
+    width:20%;
+    height: 50%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+  
+}
+
+
+
+
+
+
+@media only screen  and (max-width: 767px) {
+  .foto{
+    width:75%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:70%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:80%;
+    height: 90%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:100%;
+    height: 80px;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 28px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color:black;
+  }
+  #flechtalent{
+    width:30%;
+    height: auto;
+    margin-top: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+  #inicio{
+    width:35%;
+    height: auto;
+    margin-bottom:2%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  } 
+}
+
+
+
+
+@media only screen  and (max-width: 550px) {
+  .foto{
+    width:70%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:65%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:70%;
+    height: 90%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:65%;
+    height: 90px;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 28px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color:black;
+  }
+  #flechtalent{
+    width:30%;
+    height: auto;
+    margin-top: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+  #inicio{
+    width:35%;
+    height: auto;
+    margin-bottom:2%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  } 
+}
+
+
+
+
+
+
+
+
+
+/*CONTINÚA*/
+@media only screen and (max-width: 415px) {
+  .foto{
+    width:60%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:60%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+  #title1{
+    color:white;
+    padding-top: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #intro{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 6%;
+    margin-left: 6%;
+    font-size: 15px;
+  }
+  #title2{
+    color: rgba(21, 21, 112, 0.788);
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #vision{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-bottom: 20px;
+    font-size: 15px;
+    
+  }
+  #title3{
+    color: rgba(21, 21, 112, 0.788);
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  #mision{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  #title4{
+    color: rgba(21, 21, 112, 0.788);
+    padding-bottom: 1%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  #title5{
+    color: rgba(21, 21, 112, 0.788);
+    margin: 0%;
+    border-top: 5%;
+    border-bottom: 5%;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:70%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:60%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color:black;
+  }
+
+  #inicio{
+    width:35%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  }
+  
+  #flechtalent{
+    width:30%;
+    height: auto;
+    float: right;
+    margin-top: 2%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  } 
+}
+
+
+
+
+
+
+@media only screen  and (max-width: 376px) {
+  .foto{
+    width:60%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+  }
+  .fotocoordinadores{
+    width:60%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    border: 4px solid transparent; 
+    background-color: rgb(15,66,131);
+  }
+    #title1{
+      color:white;
+      padding-top: 5%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+    #intro{
+      color:rgba(21, 21, 112, 0.788);
+      font-weight: bold;
+      font-size: larger;
+      margin-right: 6%;
+      margin-left: 6%;
+      font-size: 15px;
+    }
+    #title2{
+      color: rgba(21, 21, 112, 0.788);
+      margin-right: 3%;
+      margin-left: 3%;
+      padding-top: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+    #vision{
+      color:rgba(21, 21, 112, 0.788);
+      font-weight: bold;
+      font-size: larger;
+      margin-right: 8%;
+      margin-left: 8%;
+      padding-bottom: 20px;
+      font-size: 15px;
+      
+    }
+    #title3{
+      color: rgba(21, 21, 112, 0.788);
+      margin-right: 3%;
+      margin-left: 3%;
+      padding-top: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+    }
+    #mision{
+      color:rgba(21, 21, 112, 0.788);
+      font-weight: bold;
+      font-size: larger;
+      margin-right: 8%;
+      margin-left: 8%;
+      padding-bottom: 20px;
+      font-size: 15px;
+    }
+    #title4{
+      color: rgba(21, 21, 112, 0.788);
+      padding-bottom: 1%;
+      padding-top: 3%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+    }
+    #title5{
+      color: rgba(21, 21, 112, 0.788);
+      margin: 0%;
+      border-top: 5%;
+      border-bottom: 5%;
+      padding-bottom: 10%;
+      padding-top: 1%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+    }
+    .cajas{ /*Clase ligada con otra que tiene la imagen*/
+      width:70%;
+      height: 85%;
+      padding:0%;
+      position: relative;
+      margin-top:5px;;
+      display: none;
+    }
+    .cajaspeque{
+      width:70%;
+      height: 85%;
+      padding:0%;
+      position: relative;
+      margin-top:5px;;
+      display: none;
+    }
+    .textotitulo{
+      position: relative;
+      top: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 11px;
+      color: white;
+    }
+    .textocaja{
+      position: relative;
+      top: 25px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 11px;
+      color:black;
+    }
+    #inicio{
+      width:35%;
+      margin-bottom: 3%;
+      height: auto;
+      transition: all 300ms ease 0ms;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+    }
+    
+    #flechtalent{
+      width:28%;
+      height: auto;
+      float: right;
+      margin-bottom: 2%;
+      transition: all 300ms ease 0ms;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      z-index: 99;
+    } 
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 281px) {
+  .foto{
+    width:50%;
+    height: auto;
+    transition: all 300ms ease 0ms;
+    
+  }
+  #title1{
+    color:white;
+    padding-top: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #intro{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 6%;
+    margin-left: 6%;
+    font-size: 15px;
+  }
+  #title2{
+    color: rgba(21, 21, 112, 0.788);
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  #vision{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-bottom: 20px;
+    font-size: 15px;
+    
+  }
+  #title3{
+    color: rgba(21, 21, 112, 0.788);
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  #mision{
+    color:rgba(21, 21, 112, 0.788);
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  #title4{
+    color: rgba(21, 21, 112, 0.788);
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  #title5{
+    color: rgba(21, 21, 112, 0.788);
+    margin: 0%;
+    border-top: 5%;
+    border-bottom: 5%;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .cajas{ /*Clase ligada con otra que tiene la imagen*/
+    width:100%;
+    height: 85%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .cajaspeque{
+    width:100%;
+    height: 75%;
+    padding:0%;
+    position: relative;
+    margin-top:5px;;
+    display: none;
+  }
+  .textotitulo{
+    position: relative;
+    top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color: white;
+  }
+  .textocaja{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color:black;
+  }
+  #flechtalent{
+    width:50%;
+    height: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+  } 
+}
+
+
+
+

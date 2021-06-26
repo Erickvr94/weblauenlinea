@@ -1,0 +1,292 @@
+.contend_1{
+    background-color: rgb(2,136,209,0.76);
+    height:100%;
+
+}
+
+.contend_2{
+    background-color: white;
+    height: 100%;
+
+}
+
+.contend_3{
+    background-color: white;
+    height: 100%;
+}
+
+ #title1{
+    color:white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+/*Inicop imagenes*/
+#tertulia{
+    width:100%;
+    height: auto;
+    margin-top: 50%;
+}
+
+#enlineaconlau{
+    width:85%;
+    height: auto;
+    margin-top: 25%; 
+}
+#cafedelaciencia{
+    width:65%;
+    height: auto;
+    margin-top: 25%;
+}
+
+#turismodemente{
+    width:90%;
+    height: auto;
+    margin-top: 16%; 
+}
+#holaemprendedores{
+    width:100%;
+    height: auto;
+    margin-top: 22%; 
+}
+#cartassobrelamesa{
+    width:100%;
+    height: auto;
+    margin-top: 40%; 
+}
+#imaginachef{
+    width:100%;
+    height: auto;
+    margin-top: 30%; 
+}
+#talentshow{
+    width:100%;
+    height: auto;
+    margin-top: 30%; 
+}
+#masdeti{
+    width:100%;
+    height: auto;
+    margin-top: 30%; 
+}
+
+
+
+
+/*Final imagenes*/
+
+
+.tabla{
+    background-color: rgba(173, 213, 238);
+    margin-top: 4%;
+    margin-left: 8px;
+    width: 95%;
+    height: 20px;
+    border-style:solid;
+    border-radius: 10px ;
+    Overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius:20px;
+    -o-border-radius:20px;
+    -ms-boder-radius:20px;
+    font-weight: bolder;
+    color: rgba(15, 66, 131);
+  }
+
+ td{
+    padding: 0px ;
+ }
+ .titulodescripcion{
+    width: 90%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    font-size: 18px;
+ }
+
+ .descripcion{
+    width: 100%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+ }
+ .proximamente{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    font-size: 30px;
+    color: rgba(15, 66, 131);
+ }
+.fila{
+    background-color: rgba(15, 66, 131);    
+    color: white;
+    font-weight: bolder;
+    width: 20%;
+    padding-bottom: 0%;
+}
+.hora{
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.borde_izquierdo{
+    background-color: rgba(15, 66, 131);
+    border-bottom: 3px solid transparent; 
+    width: 2%; height: 100%; 
+    margin-top: 0px; padding: 0px 0px; float: left;
+}
+
+tbody td:nth-child(4){
+    width: 40%;
+}
+
+#felchprogmusic{
+    float: right;
+    width:22%;
+    height: auto;
+    margin-bottom: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+    z-index: 99;   
+}
+  
+#felchprogmusic:hover{
+    box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+    transform: translateY(-7px);
+}
+
+#casainicio{
+    width:22%;
+    height: auto;
+    margin-bottom: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+    z-index: 99;  
+}
+
+#casainicio:hover{
+    box-shadow: 0px 2px 2px rgba(212, 212, 212, 0.3);
+    border: none;
+    transform: translateY(-7px);
+}
+.row{
+    margin: 0px 0px;
+}
+
+
+
+
+
+/*MEDIAS*/
+@media screen and (max-width:765px){
+    #tertulia{
+        width:60%;
+        height: auto;
+        margin-top: 10%;
+    }
+    
+    #enlineaconlau{
+        width:40%;
+        height: auto;
+        margin-top: 20%; 
+    }
+    #cafedelaciencia{
+        width:40%;
+        height: auto;
+        margin-top: 20%;
+    }
+    
+    #turismodemente{
+        width:45%;
+        height: auto;
+        margin-top: 16%; 
+    }
+    #holaemprendedores{
+        width:45%;
+        height: auto;
+        margin-top: 22%; 
+    }
+    #cartassobrelamesa{
+        width:55%;
+        height: auto;
+        margin-top: 20%; 
+    }
+    #imaginachef{
+        width:50%;
+        height: auto;
+        margin-top: 20%; 
+    }
+    #talentshow{
+        width:50%;
+        height: auto;
+        margin-top: 20%; 
+    }
+    #masdeti{
+        width:50%;
+        height: auto;
+        margin-top: 20%; 
+    }
+
+
+    .proximamente{
+        width: 100%;
+        padding-top: 15%;
+        padding-bottom: 1%;
+        font-size: 30px;
+        color: rgba(15, 66, 131);
+     }
+
+
+    #felchprogmusic{
+        float: right;
+        width:35%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+        z-index: 99;   
+    }
+    #casainicio{
+        width:30%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+        z-index: 99;  
+    } 
+}
+
+
+
+
+
+@media screen and (max-width:560px){
+    #title1{
+        color:white;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .titulodescripcion{
+        width: 90%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        font-size: 15px;
+     }
+    
+     .descripcion{
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        font-size: 14px;
+     }
+     .hora{
+        margin-top: 20%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14px;
+    }
+}

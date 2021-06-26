@@ -1,0 +1,211 @@
+
+.container-fluid{
+    background-image: url(../imagenes/imgprogramacionmusical/ADORNO-MUSICAL.png);
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.franja1{
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(24, 142, 221);
+    color: white;
+    font-size: 180%;
+    text-align:center;
+}
+
+.descripcion{
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.cuadro_descripcion{
+    background-color: rgb(147, 202, 238);
+    color: rgb(18, 52, 145);
+    text-align: justify;
+    border-radius: 20px;
+    /*ont-size: 90%;*/
+    padding-top: 20px;
+    padding-right: 2%;
+    padding-bottom: 15px;
+    padding-left: 2%;
+
+}
+
+.img_flechita{
+    width: 5%;
+    margin-left: 45%;
+}
+
+.Programa1{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    color:rgb(18, 52, 145);  
+}
+
+.Programa2{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    color:rgb(18, 52, 145);   
+}
+.tabla{
+    border-collapse: collapse;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    overflow:hidden;
+    height:90%;
+}
+thead{
+    background-color: rgba(15, 66, 131);
+    color: white;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 0px ;
+ }
+tbody{
+    background-color: rgba(173, 213, 238);
+    
+}
+.parrafo{
+    padding-right: 2%;
+    padding-left: 2%;
+    font-size: 15px;
+}
+.borde_izquierdo{
+    background-color: rgba(15, 66, 131);
+    border-bottom: 3px solid transparent; 
+    width: 3px; 
+    height: 100%; 
+    margin-top: 0px; 
+    padding: 0px 0px; 
+    float: left;
+}
+.hora{
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
+/*TALENTOS*/
+
+#nombre1{
+    width: 50%;
+    border: 2px solid rgb(147, 202, 238);
+    border-radius: 20px;
+    border-width: medium;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#Romery{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(15, 66, 131);
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 23%;
+    transition: all 300ms ease 0ms;
+}
+
+
+#nombre2{
+    width: 50%;
+    border: 2px solid rgb(147, 202, 238);
+    border-radius: 20px;
+    border-width: medium;
+    text-align: center;
+    margin: 0 auto;
+}
+#Lorena{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(15, 66, 131);
+    width: 62%;
+    margin-top: 10px;
+    margin-left: 23%;
+    transition: all 300ms ease 0ms;
+}
+
+
+
+#nombre3{
+    width: 50%;
+    border: 2px solid rgb(147, 202, 238);
+    border-radius: 20px;
+    border-width: medium;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#Pierina{
+    border-style: solid;
+    border-width: thick;
+    border-color: rgba(15, 66, 131);
+    margin-top: 10px;
+    margin-left: 23%;
+    width: 63%;
+    transition: all 300ms ease 0ms;
+}
+
+.fotos:hover{
+    transform: translateY(-7px);
+}
+
+
+#regresanuestrosprogramas{
+    width:20%;
+    height: auto;
+    margin-bottom: 1%;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+    z-index: 99;  
+}
+
+#regresanuestrosprogramas:hover{
+    box-shadow: 0px 2px 2px rgba(212, 212, 212, 0.3);
+    border: none;
+    transform: translateY(-7px);
+}
+
+
+@media screen and (max-width: 550px) {
+    .franja1{
+        height:100%;
+        padding-top: 10px;
+        background-color: rgb(24, 142, 221);
+        color: white;
+        font-size: 20px;
+        text-align:center;
+    }
+    .parrafo{
+        font-size: 14px;
+    }
+    th{
+        font-size: 14px; 
+    }
+    #regresanuestrosprogramas{
+        width:36%;
+        height: auto;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 2px 2px rgba(248, 248, 248, 0.897);
+        z-index: 99;  
+    }
+    
+}
