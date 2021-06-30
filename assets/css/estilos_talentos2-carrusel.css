@@ -1,0 +1,558 @@
+
+#representantes1{
+  height:410px;
+}
+#comunicacion1{
+  height:400px;
+}
+#comunicacion2{
+  height:400px;
+}
+#publicidad1{
+  height:400px;
+}
+#disenografico1{
+  height:400px;
+  margin-bottom: 2%;
+}
+#turismo1{
+  height:400px;
+}
+#sistemascomputacionales1{
+  height:400px;
+}
+#cpa1{
+  height:400px;
+}
+#ingmarketingynegociacion1{
+  height:400px;
+}
+
+.slide{
+	width: auto !important;
+  height: auto !important;
+  margin-top: 4% !important;
+	margin-bottom: 10px !important; 
+	align-items: center !important;
+  cursor: pointer !important;
+}
+
+.owl-nav{
+  height: 10px !important;
+  position: relative !important;
+  margin-top: -17% !important;
+  margin-bottom: 15px !important;
+  z-index: 1 !important;
+}
+.owl-prev{
+  margin-right: 48% !important;
+}
+.owl-next{
+  margin-left:48% !important;
+}
+span{
+  color: rgb(20, 39, 209) !important; 
+  font-size: 60px !important;
+}
+
+
+
+
+
+/* MEDIAS */
+@media (max-width:2000px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -12% !important;
+    margin-bottom: 15px !important;
+    z-index: 1 !important;
+  }
+  .owl-prev{
+    margin-right: 47% !important;
+  }
+  .owl-next{
+    margin-left:47% !important;
+  }
+  span{
+    color: rgb(20, 39, 209) !important; 
+    font-size: 80px !important;
+  }
+  #representantes1{
+    height:530px;
+  }
+  #comunicacion1{
+    height:510px;
+  }
+  #comunicacion2{
+    height:520px;
+  }
+  #publicidad1{
+    height:380px;
+  }
+  #disenografico1{
+    height:380px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:380px;
+  }
+  #sistemascomputacionales1{
+    height:380px;
+  }
+  #cpa1{
+    height:380px;
+  }
+  #ingmarketingynegociacion1{
+    height:380px;
+  }  
+}
+
+
+
+@media (max-width:1500px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -12% !important;
+    margin-bottom: 15px !important;
+    z-index: 1 !important;
+  }
+  .owl-prev{
+    margin-right: 47% !important;
+  }
+  .owl-next{
+    margin-left:47% !important;
+  }
+  span{
+    color: rgb(20, 39, 209) !important; 
+    font-size: 80px !important;
+  }
+  #representantes1{
+    height:500px;
+  }
+  #comunicacion1{
+    height:490px;
+  }
+  #comunicacion2{
+    height:500px;
+  }
+  #publicidad1{
+    height:500px;
+  }
+  #disenografico1{
+    height:500px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:500px;
+  }
+  #sistemascomputacionales1{
+    height:500px;
+  }
+  #cpa1{
+    height:500px;
+  }
+  #ingmarketingynegociacion1{
+    height:500px;
+  }  
+}
+
+
+
+@media (max-width:1220px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -20% !important;
+    margin-bottom: 15px !important;
+    z-index: 1 !important;
+  }
+  .owl-prev{
+    margin-right: 47% !important;
+  }
+  .owl-next{
+    margin-left:47% !important;
+  }
+  span{
+    color: rgb(20, 39, 209) !important; 
+    font-size: 80px !important;
+  }
+  #representantes1{
+    height:440px;
+  }
+  #comunicacion1{
+    height:440px;
+  }
+  #comunicacion2{
+    height:440px;
+  }
+  #publicidad1{
+    height:440px;
+  }
+  #disenografico1{
+    height:440px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:440px;
+  }
+  #sistemascomputacionales1{
+    height:440px;
+  }
+  #cpa1{
+    height:440px;
+  }
+  #ingmarketingynegociacion1{
+    height:440px;
+  }  
+}
+
+
+
+
+
+@media (max-width:1100px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -20% !important;
+    margin-bottom: 15px !important;
+    z-index: 1 !important;
+  }
+  .owl-prev{
+    margin-right: 47% !important;
+  }
+  .owl-next{
+    margin-left:47% !important;
+  }
+  span{
+    color: rgb(20, 39, 209) !important; 
+    font-size: 80px !important;
+  }
+  #representantes1{
+    height:420px;
+  }
+  #comunicacion1{
+    height:420px;
+  }
+  #comunicacion2{
+    height:410px;
+  }
+  #publicidad1{
+    height:420px;
+  }
+  #disenografico1{
+    height:420px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:420px;
+  }
+  #sistemascomputacionales1{
+    height:420px;
+  }
+  #cpa1{
+    height:420px;
+  }
+  #ingmarketingynegociacion1{
+    height:420px;
+  }  
+}
+
+
+
+
+
+
+
+@media (max-width: 990px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+    .owl-nav{
+      height: 10px !important;
+      position: relative !important;
+      margin-top: -25% !important;
+      margin-bottom: 15px !important;
+      z-index: 1 !important;
+    }
+    .owl-prev{
+      margin-right: 44% !important;
+    }
+    .owl-next{
+      margin-left:44% !important;
+    }
+    #representantes1{
+      height:380px;
+    }
+    #comunicacion1{
+      height:380px;
+    }
+    #comunicacion2{
+      height:380px;
+    }
+    #publicidad1{
+      height:380px;
+    }
+    #disenografico1{
+      height:380px;
+      margin-bottom: 2%;
+    }
+    #turismo1{
+      height:380px;
+    }
+    #sistemascomputacionales1{
+      height:380px;
+    }
+    #cpa1{
+      height:380px;
+    }
+    #ingmarketingynegociacion1{
+      height:380px;
+    }  
+}
+
+
+
+
+@media (max-width: 800px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-prev{
+    margin-right: 45% !important;
+  }
+  .owl-next{
+    margin-left:45% !important;
+  }
+  #representantes1{
+    height:405px;
+  }
+}
+
+
+
+
+@media (max-width: 600px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+    .owl-prev{
+      margin-right: 45% !important;
+    }
+    .owl-next{
+      margin-left:45% !important;
+    }
+    #representantes1{
+      height:430px; 
+    }
+    #comunicacion1{
+      height:430px;
+    }
+    #comunicacion2{
+      height:430px;
+    }
+    #publicidad1{
+      height:430px;
+    }
+    #disenografico1{
+      height:430px;
+      margin-bottom: 2%;
+    }
+    #turismo1{
+      height:430px;
+    }
+    #sistemascomputacionales1{
+      height:430px;
+    }
+    #cpa1{
+      height:430px;
+    }
+    #ingmarketingynegociacion1{
+      height:430px;
+    } 
+}
+
+
+
+
+
+@media (max-width: 530px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-prev{
+    margin-right: 45% !important;
+  }
+  .owl-next{
+    margin-left:45% !important;
+  }
+  #representantes1{
+    height:430px;
+  }
+  #comunicacion1{
+    height:430px;
+  }
+  #comunicacion2{
+    height:430px;
+  }
+  #publicidad1{
+    height:430px;
+  }
+  #disenografico1{
+    height:430px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:430px;
+  }
+  #sistemascomputacionales1{
+    height:430px;
+  }
+  #cpa1{
+    height:430px;
+  }
+  #ingmarketingynegociacion1{
+    height:430px;
+  } 
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+    .owl-nav{
+      height: 10px !important;
+      position: relative !important;
+      margin-top: -40% !important;
+      margin-bottom: 15px !important;
+      z-index: 1;
+    }  
+    .owl-prev{
+      margin-right: 43% !important;
+    }
+    .owl-next{
+      margin-left:43% !important;
+    }
+    #representantes1{
+      height:540px;
+    }
+    #comunicacion1{
+      height:540px;
+    }
+    #comunicacion2{
+      height:540px;
+    }
+    #publicidad1{
+      height:540px;
+    }
+    #disenografico1{
+      height:540px;
+      margin-bottom: 2%;
+    }
+    #turismo1{
+      height:540px;
+    }
+    #sistemascomputacionales1{
+      height:540px;
+    }
+    #cpa1{
+      height:540px;
+    }
+    #ingmarketingynegociacion1{
+      height:540px;
+    } 
+}
+
+
+@media only screen and (max-width: 380px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -65% !important;
+    margin-bottom: 15px !important;
+    z-index: 1  !important;
+  }  
+  .owl-prev{
+    margin-right: 35% !important;
+  }
+  .owl-next{
+    margin-left:35% !important;
+  }
+
+  #representantes1{
+    height:550px;
+  }
+  #comunicacion1{
+    height:550px;
+    margin-bottom: 2%;
+  }
+  #comunicacion2{
+    height:550px;
+  }
+  #publicidad1{
+    height:550px;
+  }
+  #disenografico1{
+    height:550px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:550px;
+  }
+  #sistemascomputacionales1{
+    height:550px;
+  }
+  #cpa1{
+    height:550px;
+  }
+  #ingmarketingynegociacion1{
+    height:550px;
+  } 
+}
+
+
+
+
+@media only screen and (max-width: 320px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
+  .owl-nav{
+    height: 10px !important;
+    position: relative !important;
+    margin-top: -65% !important;
+    margin-bottom: 15px !important;
+    z-index: 1  !important;
+  }  
+  .owl-prev{
+    margin-right: 35% !important;
+  }
+  .owl-next{
+    margin-left:35% !important;
+  }
+
+  #representantes1{
+    height:520px;
+  }
+  #comunicacion1{
+    height:520px;
+    margin-bottom: 2%;
+  }
+  #comunicacion2{
+    height:520px;
+  }
+  #publicidad1{
+    height:520px;
+  }
+  #disenografico1{
+    height:520px;
+    margin-bottom: 2%;
+  }
+  #turismo1{
+    height:520px;
+  }
+  #sistemascomputacionales1{
+    height:520px;
+  }
+  #cpa1{
+    height:520px;
+  }
+  #ingmarketingynegociacion1{
+    height:520px;
+  } 
+}
+
+
+ 
