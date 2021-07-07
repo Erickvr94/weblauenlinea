@@ -1,6 +1,6 @@
 
 .container-fluid{
-    background-image: url(../imagenes/imgprogramacionmusical/ADORNO-MUSICAL.png);
+    background-image: url("../../imagenes/imgprogramacionmusical/ADORNO-MUSICAL.png");
     background-position: right bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
