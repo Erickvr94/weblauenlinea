@@ -402,10 +402,10 @@ span{
 
 @media (max-width: 530px){ /*TOMAR EN CUENTA EL CSS DE estilos_talentos2*/
   .owl-prev{
-    margin-right: 45% !important;
+    margin-right: 42% !important;
   }
   .owl-next{
-    margin-left:45% !important;
+    margin-left:42% !important;
   }
   #representantes1{
     height:430px;
