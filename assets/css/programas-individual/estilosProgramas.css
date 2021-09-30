@@ -1,0 +1,194 @@
+/*html,body{
+  background-color: rgb(173,213,238);
+}*/
+.row{
+  margin: 0px 0px !important;
+}
+.contend_1{
+    background-color: rgb(2,136,209,0.76);
+    height: 100%;
+}
+.contend_2{
+  background-color: rgb(173,213,238);
+  padding-top: 5%;
+  height: 100px;
+  width: 100%;
+}
+.contend_3{
+  background-color: rgb(173,213,238);
+  height: 100%;
+  
+}
+.contend_4{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  
+}
+hr{
+  background-color: rgb(2, 137, 209);
+  height: 25px;
+}
+  #title1{
+    color:white;
+    margin: 0%;
+    border-top: 5%;
+    border-bottom: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder; 
+  }
+
+#biografiaTroiAlvarado{
+  font-family: 'Dancing Script', cursiva;
+  font-size: 20px;
+}
+#biografiaAndreaYan{
+  font-family: 'Dancing Script', cursiva;
+  font-size: 22px;
+}
+.descripcion{
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-weight: bolder;
+  color:black;
+  font-family: Lucida Bright;
+  font-size: 20px; 
+}
+.equipo{
+  font-family: Lucida Bright;
+  font-size: 20px; 
+}
+.foto{
+  width: 75%;  
+  height: auto;
+  transition: all 300ms ease 0ms;
+  border: 4px solid transparent; 
+  background-color: rgb(15,66,131);
+}
+.tabla{
+  border-collapse: collapse;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 15px;
+  overflow:hidden;
+  height:90%;
+}
+.titleconductor{
+
+  font-size: 40px;
+  font-family: 'Tangerine', serif;
+  text-shadow: 3px 3px 3px #aaa;
+}
+thead{
+  background-color: rgba(15, 66, 131);
+  color: white;
+}
+
+td{
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 1%;
+}
+tbody{
+  background-color: white;
+  
+}
+
+iframe{
+  margin-top: 3%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.parrafo{
+  padding-right: 2%;
+  padding-left: 2%;
+  font-family: 'Dancing Script', cursiva;
+  font-size: 16px;
+}
+.fila{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.video{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.conductor{
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+.tablaconductor{
+  border-collapse: collapse;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 15px;
+  overflow:hidden;
+  height:90%;
+}
+#btnvermasCienciaExpress{
+  width: 25%;
+}
+#btnvermasTertulias{
+  width: 30%;
+  height: 60%;
+}
+
+#btnvermasEnLineaconlaU{
+  width: 30%;
+  height: 50%;
+}
+
+#btnvermasCartasSobreLaMesa{
+  width: 30%;
+  height: 50%;
+}
+
+/* BOTONES NUEVOS */
+.btn-tugts{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  width: 60%;
+  height: 60%;
+}
+
+.btn-eleditorial{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  width: 60%;
+  height: 60%;
+}
+
+.btn-cartsoblamesa{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  width: 60%;
+  height: 60%;
+}
+
+
+/*MEDIAS - AJUSTES DE PANTALLAS EN EL ARCHIVO mediaProgramas*/
+
+
+
+
+
